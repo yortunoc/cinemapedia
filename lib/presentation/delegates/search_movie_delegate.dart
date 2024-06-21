@@ -122,7 +122,7 @@ class _SearchMovieItems extends StatelessWidget {
                             style: textStyle.bodyLarge,
                           )
                         : Text(
-                            '${movie.overview.substring(0, 110)}..ha',
+                            '${movie.overview.substring(0, 110)}...',
                             style: textStyle.bodyLarge,
                           ),
                     Row(
